@@ -54,6 +54,7 @@ function matrixOfNumbers(args) {
         result = ' ',
         i,
         j;
+		
     for (i = 0; i < rowsAndCols; i += 1) {
         for (j = i + 1; j <= rowsAndCols + i; j += 1) {
             result += j + ' ';
